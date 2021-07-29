@@ -80,27 +80,35 @@
 }
 .react-multi-carousel-dot button {
   display: inline-block;
-  width: 12px;
-  height: 12px;
   border-radius: 50%;
   opacity: 1;
   padding: 5px 5px 5px 5px;
   box-shadow: none;
   transition: background .5s;
-  border-width: 2px;
-  border-style: solid;
-  border-color: grey;
   padding: 0;
   margin: 0;
   margin-right: 6px;
   outline: 0;
   cursor: pointer;
+  border: none;
+  height: 15px;
+  width: 15px;
+  background: #c5c5c5;
+  border: none;
 }
 .react-multi-carousel-dot button:hover:active {
-  background: #080808;
+  background: #6abf6a;
 }
 .react-multi-carousel-dot--active button {
-  background: #080808;
+  width: 100px;
+  height: 12px;
+  position: relative;
+  background: #6abe60;
+  border-radius: 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border: none;
+  top: 1px;
+
 }
 .react-multi-carousel-item {
   transform-style: preserve-3d;
